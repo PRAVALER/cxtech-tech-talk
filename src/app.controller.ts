@@ -13,4 +13,9 @@ export class AppController {
   getHello(): string {
     return `Hello ${this.powService.powle(5,3)}`;
   }
+
+  @Get('/pow4')
+  getPow4(): string {
+    return `Hello ${this.powService.pow4(5)}`;
+  }
 }
