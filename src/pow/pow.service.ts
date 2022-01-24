@@ -14,3 +14,10 @@ export class PowService {
     return arg0 * arg1;
   }
 }
+
+@Injectable()
+export class IncrementService {
+  increment(base: number) {
+    return base + 1;
+  }
+}
