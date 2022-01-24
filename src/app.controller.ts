@@ -11,6 +11,6 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    return `Hello ${this.powService.pow2(5)}`;
+    return `Hello ${this.powService.powle(5,3)}`;
   }
 }
