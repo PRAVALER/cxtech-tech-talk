@@ -6,3 +6,10 @@ export class PowService {
     return base * base;
   }
 }
+
+@Injectable()
+export class Sum {
+  sumProps(base: number) {
+    return base + base;
+  }
+}
