@@ -6,3 +6,10 @@ export class PowService {
     return base * base;
   }
 }
+
+@Injectable()
+export class IncrementService {
+  increment(base: number) {
+    return base + 1;
+  }
+}
