@@ -14,3 +14,8 @@ export class PowService {
     return arg0 * arg1;
   }
 }
+@Injectable()
+export class PowService {
+  pow2(base: number) {
+    return base * base;
+  }
