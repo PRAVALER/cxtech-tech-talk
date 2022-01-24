@@ -5,11 +5,8 @@ export class PowService {
   pow2(base: number) {
     return base * base;
   }
-}
 
-@Injectable()
-export class Sum {
-  sumProps(base: number) {
+  sum(base:number){
     return base + base;
   }
 }
